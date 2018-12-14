@@ -3,8 +3,8 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.zenoss.zep</groupId>
     <artifactId>zep-parent</artifactId>
-    <packaging>pom</packaging>
     <version>2.5.0</version>
+    <packaging>pom</packaging>
     <name>Zenoss Event Processor Parent</name>
     <url>http://www.zenoss.com</url>
     <modules>
@@ -35,8 +35,8 @@
         <version.spring>3.0.5.RELEASE</version.spring>
         <version.tomcat-jdbc>7.0.27</version.tomcat-jdbc>
         <zenoss-utils.version>2.1.0</zenoss-utils.version>
-        <zenoss-protocols.version>2.1.4</zenoss-protocols.version>
-        <metric-consumer.version>0.0.16</metric-consumer.version>
+        <zenoss-protocols.version>2.1.5</zenoss-protocols.version>
+        <metric-consumer.version>0.1.7</metric-consumer.version>
     </properties>
     <profiles>
         <!-- Disable the integration tests if we haven't specified a database type -->
